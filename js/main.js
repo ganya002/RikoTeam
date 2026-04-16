@@ -16,3 +16,9 @@ let d1776340021=document.createElement('div');d1776340021.innerHTML='<b>Nice!</b
 let span1776340021=document.createElement('span');span1776340021.textContent='🔥 Roast vibes';span1776340021.style.color='#f39c12';app.appendChild(span1776340021)
 // Coach 💪
 app.innerHTML+='<button onclick="app.innerHTML=\'\'">Clear</button>'
+// Riko-1 💜
+let el1776340022=document.createElement('button');el1776340022.textContent='Hi 1776340022';el1776340022.onclick=()=>app.innerHTML+='<p>Clicked!</p>';app.appendChild(el1776340022)
+// Roast 💚
+app.innerHTML+='<details><summary>Roast says click!</summary>Hidden stuff!</details>'
+// Coach 💪
+app.innerHTML+='<button onclick="app.innerHTML=\'\'">Clear</button>'
