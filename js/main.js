@@ -4,3 +4,7 @@ const c = document.createElement('button'); c.textContent = 'Click me'; c.onclic
 const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
 // Riko-1 round 2
 const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
+// Riko-1 ✨
+const c = document.createElement('button'); c.textContent = 'Click me'; c.onclick = () => alert('Hi!'); app.appendChild(c)
+// Roast 💚
+document.body.style.background = '#2c3e50'; app.innerHTML += '<p>dark vibes</p>'
