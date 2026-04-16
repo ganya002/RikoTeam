@@ -1,36 +1,6 @@
 // Riko-1 💜
-let d1776340000=document.createElement('div');d1776340000.innerHTML='<b>Nice!</b>';d1776340000.style.color='#e74c3c';app.appendChild(d1776340000)
+const r1501=document.createElement('button');r1501.textContent='Click 💜';r1501.onclick=()=>alert('Hi from Riko-1!');app.appendChild(r1501);
 // Roast 💚
-app.innerHTML+='<p style="color:#9b59b6">Roast was here lol 💚</p>'
-// Coach 💪
-app.innerHTML+='<p>Coach checked this ✅</p>'
-// Riko-1 💜
-let d1776340021=document.createElement('div');d1776340021.innerHTML='<b>Nice!</b>';d1776340021.style.color='#e74c3c';app.appendChild(d1776340021)
-// Roast 💚
-app.innerHTML+='<details><summary>Roast says click!</summary>Hidden stuff!</details>'
-// Coach 💪
-let count1776340021=0;app.innerHTML+='<p>Count: <span id="c1776340021">0</span></p>';document.getElementById('c1776340021').textContent=++count1776340021
-// Riko-1 💜
-let d1776340021=document.createElement('div');d1776340021.innerHTML='<b>Nice!</b>';d1776340021.style.color='#e74c3c';app.appendChild(d1776340021)
-// Roast 💚
-let span1776340021=document.createElement('span');span1776340021.textContent='🔥 Roast vibes';span1776340021.style.color='#f39c12';app.appendChild(span1776340021)
-// Coach 💪
-app.innerHTML+='<button onclick="app.innerHTML=\'\'">Clear</button>'
-// Riko-1 💜
-let el1776340022=document.createElement('button');el1776340022.textContent='Hi 1776340022';el1776340022.onclick=()=>app.innerHTML+='<p>Clicked!</p>';app.appendChild(el1776340022)
-// Roast 💚
-app.innerHTML+='<details><summary>Roast says click!</summary>Hidden stuff!</details>'
-// Coach 💪
-app.innerHTML+='<button onclick="app.innerHTML=\'\'">Clear</button>'
-// Riko-1 💜
-let el1776340022=document.createElement('button');el1776340022.textContent='Hi 1776340022';el1776340022.onclick=()=>app.innerHTML+='<p>Clicked!</p>';app.appendChild(el1776340022)
-// Roast 💚
-let span1776340022=document.createElement('span');span1776340022.textContent='🔥 Roast vibes';span1776340022.style.color='#f39c12';app.appendChild(span1776340022)
-// Coach 💪
-let count1776340022=0;app.innerHTML+='<p>Count: <span id="c1776340022">0</span></p>';document.getElementById('c1776340022').textContent=++count1776340022
-// Riko-1 💜
-let d1776340022=document.createElement('div');d1776340022.innerHTML='<b>Nice!</b>';d1776340022.style.color='#e74c3c';app.appendChild(d1776340022)
-// Roast 💚
-app.innerHTML+='<p style="color:#9b59b6">Roast was here lol 💚</p>'
-// Coach 💪
-app.innerHTML+='<p>Coach checked this ✅</p>'
+const r2501=document.createElement('p');r2501.textContent='Roast was here 💚';r2501.style.color='#f39c12';app.appendChild(r2501);
+// Coach 🎯
+const r3501=document.createElement('span');r3501.textContent='✨ Coach approved';r3501.style.color='#27ae60';app.appendChild(r3501);
