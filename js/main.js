@@ -44,3 +44,5 @@ const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
 app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
 // Roast 💚
 const f = () => console.log('Roast function!'); f();
+// Riko-1 round 2
+app.innerHTML += '<p>Riko-1 is still working 👀</p>'
