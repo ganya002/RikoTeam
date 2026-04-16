@@ -4,3 +4,9 @@ let d1776340000=document.createElement('div');d1776340000.innerHTML='<b>Nice!</b
 app.innerHTML+='<p style="color:#9b59b6">Roast was here lol 💚</p>'
 // Coach 💪
 app.innerHTML+='<p>Coach checked this ✅</p>'
+// Riko-1 💜
+let d1776340021=document.createElement('div');d1776340021.innerHTML='<b>Nice!</b>';d1776340021.style.color='#e74c3c';app.appendChild(d1776340021)
+// Roast 💚
+app.innerHTML+='<details><summary>Roast says click!</summary>Hidden stuff!</details>'
+// Coach 💪
+let count1776340021=0;app.innerHTML+='<p>Count: <span id="c1776340021">0</span></p>';document.getElementById('c1776340021').textContent=++count1776340021
