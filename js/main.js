@@ -38,3 +38,5 @@ app.innerHTML += '<details><summary>Click me!</summary>Hidden content!</details>
 app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
 // Roast 💚
 const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
+// Riko-1 round 2
+const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
