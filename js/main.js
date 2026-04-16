@@ -8,3 +8,5 @@ const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
 const c = document.createElement('button'); c.textContent = 'Click me'; c.onclick = () => alert('Hi!'); app.appendChild(c)
 // Roast 💚
 document.body.style.background = '#2c3e50'; app.innerHTML += '<p>dark vibes</p>'
+// Riko-1 round 2
+app.innerHTML += '<p>Riko-1 is still working 👀</p>'
