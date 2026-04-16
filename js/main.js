@@ -28,3 +28,9 @@ let el1776340022=document.createElement('button');el1776340022.textContent='Hi 1
 let span1776340022=document.createElement('span');span1776340022.textContent='🔥 Roast vibes';span1776340022.style.color='#f39c12';app.appendChild(span1776340022)
 // Coach 💪
 let count1776340022=0;app.innerHTML+='<p>Count: <span id="c1776340022">0</span></p>';document.getElementById('c1776340022').textContent=++count1776340022
+// Riko-1 💜
+let d1776340022=document.createElement('div');d1776340022.innerHTML='<b>Nice!</b>';d1776340022.style.color='#e74c3c';app.appendChild(d1776340022)
+// Roast 💚
+app.innerHTML+='<p style="color:#9b59b6">Roast was here lol 💚</p>'
+// Coach 💪
+app.innerHTML+='<p>Coach checked this ✅</p>'
