@@ -40,3 +40,7 @@ app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
 const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
 // Riko-1 round 2
 const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
+// Riko-1 ✨
+app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
+// Roast 💚
+const f = () => console.log('Roast function!'); f();
