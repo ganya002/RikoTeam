@@ -20,3 +20,5 @@ app.innerHTML += '<details><summary>Click me!</summary>Hidden content!</details>
 const c = document.createElement('button'); c.textContent = 'Click me'; c.onclick = () => alert('Hi!'); app.appendChild(c)
 // Roast 💚
 app.innerHTML += '<p style="color:#f39c12">Roast was here lol 🔥</p>'
+// Riko-1 round 2
+const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
