@@ -22,3 +22,7 @@ const c = document.createElement('button'); c.textContent = 'Click me'; c.onclic
 app.innerHTML += '<p style="color:#f39c12">Roast was here lol 🔥</p>'
 // Riko-1 round 2
 const t = setTimeout(() => app.innerHTML += '<p>Timeout works lol</p>', 1000)
+// Riko-1 ✨
+app.innerHTML += '<input placeholder="Type here...">'
+// Roast 💚
+const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
