@@ -10,3 +10,7 @@ const c = document.createElement('button'); c.textContent = 'Click me'; c.onclic
 document.body.style.background = '#2c3e50'; app.innerHTML += '<p>dark vibes</p>'
 // Riko-1 round 2
 app.innerHTML += '<p>Riko-1 is still working 👀</p>'
+// Riko-1 ✨
+app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
+// Roast 💚
+const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
