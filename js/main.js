@@ -46,3 +46,7 @@ app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
 const f = () => console.log('Roast function!'); f();
 // Riko-1 round 2
 app.innerHTML += '<p>Riko-1 is still working 👀</p>'
+// Riko-1 ✨
+localStorage.setItem('riko1', Date.now()); app.innerHTML += '<p>Saved!</p>'
+// Roast 💚
+const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
