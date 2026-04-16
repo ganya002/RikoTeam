@@ -14,3 +14,5 @@ app.innerHTML += '<p>Riko-1 is still working 👀</p>'
 app.innerHTML += '<p>Feature by Riko-1 ✨</p>'
 // Roast 💚
 const d = document.createElement('div'); d.innerHTML = '<b>Nice!</b>'; d.style.color = '#e74c3c'; app.appendChild(d)
+// Riko-1 round 2
+app.innerHTML += '<details><summary>Click me!</summary>Hidden content!</details>'
